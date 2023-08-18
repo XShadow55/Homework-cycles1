@@ -65,10 +65,11 @@ public class Main {
     }
     public static void zd9() {
         System.out.println();
-        int bank = 29000+(29000/100);
+        int attechment = 29000+(29000/100);
+        int bank = attechment;
         for(int i = 1;i <=12;i = i+1 ){
             System.out.println("Месяц "+i+", сумма накоплений равна "+bank+" рублей");
-            bank = bank + 29000+(29000/100);
+            bank = bank + attechment;
         }
     }
     public static void zd10(){
